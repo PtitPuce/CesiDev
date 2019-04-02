@@ -2,7 +2,6 @@
 
 AuthType Basic
 AuthName "Espace sécurisé"
-# AuthUserFile "/var/www/html/.htpasswd"
-AuthUserFile "./.htpasswd"
+AuthUserFile "/var/www/html/CesiDev/.htpasswd"
 
 require valid-user

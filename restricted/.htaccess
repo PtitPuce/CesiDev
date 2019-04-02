@@ -1,0 +1,8 @@
+# Fichier .htaccess créé depuis la branche 'directories_access'
+
+AuthType Basic
+AuthName "Espace sécurisé"
+# AuthUserFile "/var/www/html/.htpasswd"
+AuthUserFile "./.htpasswd"
+
+require valid-user

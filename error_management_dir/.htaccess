@@ -1,5 +1,5 @@
-ErrorDocument 500 "Erreur cinq-cents"
-ErrorDocument 404 "Introuvable"
-ErrorDocument 403 "Accès refusé"
-ErrorDocument 401 "Identifiants requis"
-ErrorDocument 408 "Oops! un peu long là!"
+ErrorDocument 500 /errors_html/error_500.html
+ErrorDocument 404 /errors_html/error_404.html
+ErrorDocument 403 /errors_html/error_403.html
+ErrorDocument 401 /errors_html/error_401.html
+ErrorDocument 408 /errors_html/error_408.html
